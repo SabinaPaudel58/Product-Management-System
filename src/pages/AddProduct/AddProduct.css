@@ -1,0 +1,36 @@
+
+
+    .product-form {
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        background-color: #f7f7f7;
+        box-shadow: 2px 2px 5px #888888;
+    }
+
+    .product-form label {
+        font-weight: bold;
+    }
+
+    .product-form input[type="text"],
+    .product-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .product-form button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .product-form button:hover {
+        background-color: #45a049;
+    }

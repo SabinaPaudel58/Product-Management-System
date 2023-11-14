@@ -20,7 +20,8 @@ const Home = () => {
   return (
     <>
     <Navbar />
-    {
+    <div className='card-container'>
+       {
       products.map((product) =>{
         return(
           <div key={product.id} className ="product-card">
@@ -28,13 +29,15 @@ const Home = () => {
     <div className="product-details">
         <h2 className="product-name">{product.productName}</h2>
         <p className ="product-description">{product.productDescription}</p>
-    </div>
-</div>
+       </div>
+             </div>
+   
+    
         )
       })
     }
       
-    
+      </div>
     
 </>
     
